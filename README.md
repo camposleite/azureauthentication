@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Azure Authentication with React, MSAL (Microsoft Authentication Library) and Microsoft Graph
 
 You can use the [editor on GitHub](https://github.com/camposleite/azureauthentication/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
