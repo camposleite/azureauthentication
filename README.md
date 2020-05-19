@@ -8,7 +8,7 @@
 
 #### Voila! The tests are working and using the mocked version of the service
 
-![App Registration](images/registerapp.jpg)
+![App Registration](images/registerapp.JPG)
 
 You can use the [editor on GitHub](https://github.com/camposleite/azureauthentication/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
