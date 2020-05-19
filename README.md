@@ -10,11 +10,13 @@
 
 ![App Registration](images/appreg01.jpg)
 
-#### The Registered App
+#### The Registered App with Its Application Id
 
 ![Registered App](images/appreg02.jpg)
 
 #### API Permissions
+
+These are the scopes you request a token for
 
 ![API Permissions](images/apiperm.jpg)
 
