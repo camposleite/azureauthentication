@@ -6,6 +6,9 @@
 - Microsoft Graph JavaScript Client Library: `npm install @microsoft/microsoft-graph-client`
 - Microsoft Graph TypeScript Types: `npm install @types/microsoft-graph`
 
+#### Voila! The tests are working and using the mocked version of the service
+
+![App Registration](images/registerapp.jpg)
 
 You can use the [editor on GitHub](https://github.com/camposleite/azureauthentication/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
@@ -19,7 +22,9 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 Syntax highlighted code block
 
 # Header 1
+
 ## Header 2
+
 ### Header 3
 
 - Bulleted
