@@ -6,9 +6,13 @@
 - Microsoft Graph JavaScript Client Library: `npm install @microsoft/microsoft-graph-client`
 - Microsoft Graph TypeScript Types: `npm install @types/microsoft-graph`
 
-#### Voila! The tests are working and using the mocked version of the service
+#### App Registration
 
-![App Registration](images/registerapp.JPG)
+![App Registration](images/registerapp.jpg)
+
+#### The Registered App
+
+![Registered App](images/registerapp01.jpg)
 
 You can use the [editor on GitHub](https://github.com/camposleite/azureauthentication/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
