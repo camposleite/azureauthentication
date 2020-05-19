@@ -1,5 +1,12 @@
 ## Azure Authentication with React, MSAL (Microsoft Authentication Library) and Microsoft Graph
 
+#### Tools
+
+- Microsoft Authentication Library: `npm install msal`
+- Microsoft Graph JavaScript Client Library: `npm install @microsoft/microsoft-graph-client`
+- Microsoft Graph TypeScript Types: `npm install @types/microsoft-graph`
+
+
 You can use the [editor on GitHub](https://github.com/camposleite/azureauthentication/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
