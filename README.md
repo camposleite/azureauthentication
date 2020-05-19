@@ -16,7 +16,11 @@
 
 #### API Permissions
 
-![Registered App](images/apiperm.jpg)
+![API Permissions](images/apiperm.jpg)
+
+#### Enable Implicit Flow in Manifest
+
+![Implicit Flow](images/implicitflow.jpg)
 
 You can use the [editor on GitHub](https://github.com/camposleite/azureauthentication/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
