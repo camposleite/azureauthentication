@@ -32,7 +32,11 @@ This is useful when you want to query MS Graph with permission scopes of type Ap
 to query things in the context of the application and not the user's context and token.
 For example: when querying a list of users with the scope User.ReadBasic.All, maybe you would not want to give your users the permission to read other users profiles and want the application to be responsible for that.
 
-![Implicit Flow](images/secret.jpg)
+![Client secret](images/secret.jpg)
+
+#### Note from Microsoft
+
+![Note](images/note.jpg)
 
 #### Querying calendars
 
