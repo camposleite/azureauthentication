@@ -38,7 +38,7 @@ For example: when querying a list of users with the scope User.ReadBasic.All, ma
 
 ![Note](images/note.jpg)
 
-So, you should use your backend to query scopes of type Application, using the app secret.
+So, you should use your back-end to query scopes of type Application, using the app secret.
 
 #### Querying calendars
 
