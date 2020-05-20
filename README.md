@@ -8,6 +8,8 @@
 
 #### App Registration
 
+First, you need to register your app.
+
 ![App Registration](images/appreg01.jpg)
 
 #### The Registered App with Its Application Id
@@ -23,6 +25,18 @@ These are the scopes you request a token for
 #### Enable Implicit Flow in Manifest
 
 ![Implicit Flow](images/implicitflow.jpg)
+
+#### Client Secrets
+
+This is useful when you want to query MS Graph with permission scopes of type Application, not Delegated. When you want
+to query things in the context of the application and not the user's context and token.
+For example: when querying a list of users with the scope User.ReadBasic.All, maybe you would not want to give your users the permission to read other users profiles and want the application to be responsible for that.
+
+![Implicit Flow](images/secret.jpg)
+
+#### Querying calendars
+
+![Implicit Flow](images/getcalendar.jpg)
 
 #### Final thoughts
 
