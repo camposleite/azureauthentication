@@ -47,7 +47,7 @@ For example: when querying a list of users with the scope User.ReadBasic.All, ma
 
 So, you should use your back-end to query scopes of type Application, using the app secret.
 
-#### Querying calendars
+#### Querying Calendars
 
 ![Implicit Flow](images/getcalendar.jpg)
 
