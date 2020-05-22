@@ -44,6 +44,13 @@ So, you should use your back-end to query scopes of type Application, using the 
 
 ![Implicit Flow](images/getcalendar.jpg)
 
+
+Indented 4 spaces, like `<pre>` (Preformatted Text).
+
+    <?php
+        echo "Hello world!";
+    ?>
+    
 #### Final thoughts
 
 There's more than one way to skin a cat. This is just a simple way to to use MSAL to authenticate in Azure and query MS Graph.
