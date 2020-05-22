@@ -45,6 +45,28 @@ So, you should use your back-end to query scopes of type Application, using the 
 ![Implicit Flow](images/getcalendar.jpg)
 
    ```csharp
+   
+   private List<Microsoft.Graph.User> GetUserByName(string name)
+        {
+            GraphServiceClient graphServiceClient = GetGraphServiceClient();
+
+            string filter = string.Format("startswith(displayName,'{0}') or startswith(givenName,'{0}')  or startswith(surname,'{0}') or startswith(mail,'{0}') or startswith(userPrincipalName,'{0}')", name);
+
+            IGraphServiceUsersCollectionPage users = graphServiceClient.Users.Request()
+                .Select(u => new
+                {
+                    u.DisplayName,
+                    u.UserPrincipalName,
+                    u.Mail,
+                    u.OnPremisesDistinguishedName,
+                    u.OnPremisesSamAccountName
+                })
+                .Filter(filter)
+                .GetAsync().Result;
+
+            return users.ToList();            
+        }
+        
   private GraphServiceClient GetGraphServiceClient()
         {
             var confidentialClient = ConfidentialClientApplicationBuilder.Create(_client_id)
@@ -70,6 +92,7 @@ So, you should use your back-end to query scopes of type Application, using the 
              );
             return graphServiceClient;
         }
+        
 ```
 
 #### Final thoughts
