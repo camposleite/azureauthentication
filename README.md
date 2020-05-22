@@ -1,6 +1,7 @@
 ## Azure Authentication with React, MSAL (Microsoft Authentication Library) and Microsoft Graph
 
 #### Tools
+
 Front-end
 - Microsoft Authentication Library: `npm install msal`
 - Microsoft Graph JavaScript Client Library: `npm install @microsoft/microsoft-graph-client`
