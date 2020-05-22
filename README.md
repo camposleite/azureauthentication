@@ -44,35 +44,13 @@ So, you should use your back-end to query scopes of type Application, using the 
 
 ![Implicit Flow](images/getcalendar.jpg)
 
-
-Indented 4 spaces, like `<pre>` (Preformatted Text).
-
-    private GraphServiceClient GetGraphServiceClient()
-        {
-            var confidentialClient = ConfidentialClientApplicationBuilder.Create(_client_id)
-                            .WithAuthority(AzureCloudInstance.AzurePublic, _tenant_id)
-                            .WithClientSecret(_client_secret)
-                            .Build();
-
-            string[] scopes = new string[] { _graph_default_url };
-
-            GraphServiceClient graphServiceClient =
-             new GraphServiceClient(new DelegateAuthenticationProvider(async (requestMessage) =>
-             {
-
-                 // Retrieve an access token for Microsoft Graph (gets a fresh token if needed).
-                 var authResult = await confidentialClient
-                     .AcquireTokenForClient(scopes)
-                     .ExecuteAsync();
-
-                 // Add the access token in the Authorization header of the API request.
-                 requestMessage.Headers.Authorization =
-                     new AuthenticationHeaderValue("Bearer", authResult.AccessToken);
-             })
-             );
-            return graphServiceClient;
-        }
-    
+   ```csharp
+   for (int i = 0 ; i < 10; i++)
+   {
+     // Code to execute.
+   }
+   
+   
 #### Final thoughts
 
 There's more than one way to skin a cat. This is just a simple way to to use MSAL to authenticate in Azure and query MS Graph.
