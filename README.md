@@ -1,10 +1,14 @@
 ## Azure Authentication with React, MSAL (Microsoft Authentication Library) and Microsoft Graph
 
 #### Tools
-
+Front-end
 - Microsoft Authentication Library: `npm install msal`
 - Microsoft Graph JavaScript Client Library: `npm install @microsoft/microsoft-graph-client`
 - Microsoft Graph TypeScript Types: `npm install @types/microsoft-graph`
+
+Back-end (Installed from Visual Studio NuGet Packages)
+- Microsoft Identity Client
+- Microsoft Graph
 
 #### App Registration
 
@@ -43,6 +47,10 @@ So, you should use your back-end to query scopes of type Application, using the 
 #### Querying calendars
 
 ![Implicit Flow](images/getcalendar.jpg)
+
+#### Querying From The Back-end (C#)
+
+Here is an example of how you can querya a list of users with the context of your application (api permission/scope of type Application), using the app secret. Remember: here we are not using the user's credentials with a scope permission of type Delegated.
 
    ```csharp
    
