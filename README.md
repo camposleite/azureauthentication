@@ -10,6 +10,8 @@ Back-end (Installed from Visual Studio NuGet Packages)
 - Microsoft Identity Client
 - Microsoft Graph
 
+### Azure Configuration
+
 #### App Registration
 
 First, you need to register your app.
