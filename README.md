@@ -60,7 +60,8 @@ Here is an example of how you can querya a list of users with the context of you
         {
             GraphServiceClient graphServiceClient = GetGraphServiceClient();
 
-            string filter = string.Format("startswith(displayName,'{0}') or startswith(givenName,'{0}')  or startswith(surname,'{0}') or startswith(mail,'{0}') or startswith(userPrincipalName,'{0}')", name);
+            string filter = string.Format("startswith(displayName,'{0}') or startswith(givenName,'{0}')  or 
+            startswith(surname,'{0}') or startswith(mail,'{0}') or startswith(userPrincipalName,'{0}')", name);
 
             IGraphServiceUsersCollectionPage users = graphServiceClient.Users.Request()
                 .Select(u => new
