@@ -1,5 +1,7 @@
 ## Azure Authentication with React, MSAL (Microsoft Authentication Library) and Microsoft Graph
 
+This article is a compilation and simplified version of the basic code and configuration needed for an React application to authenticate in Microsoft Azure Active Directory Single Sign-On. 
+
 #### Tools
 
 Front-end
